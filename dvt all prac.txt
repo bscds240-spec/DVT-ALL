@@ -1,0 +1,2205 @@
+﻿Yash Mhatre   Roll No: 32 
+
+Aim: Getting Started with Tableau and Building Basic Visualizations.  
+
+1 a) Connect to a CSV dataset and explore the Tableau interface.  
+
+1. Open Tableau.  
+
+2. Click Text File and select your CSV file.  
+
+3. Click Open.  
+
+4. Go to Sheet 1.  
+
+5. Explore the Data pane, Columns, Rows, Marks, and Show Me.  
+
+  
+
+  
+
+  
+
+  
+
+1 b) Identify and differentiate Measures and Dimensions  
+
+1. Look at the Data pane.  
+
+2. Dimensions = Text, Date, Categories (e.g., Name, City).  
+
+3. Measures = Numeric values (e.g., Sales, Profit).  
+
+  DATA VISUALIZATION    
+
+
+
+Yash Mhatre   Roll No: 32 
+
+  
+
+  
+
+  
+
+1 c) Convert fields between discrete and continuous and observe changes  
+
+1. Drag a field to the view.  
+
+2. Click the field's drop-down arrow.  
+
+3. Select Convert to Discrete or Convert to Continuous.  
+
+4. Observe the change in the chart and axis.  
+
+  DATA VISUALIZATION    
+
+
+
+Yash Mhatre   Roll No: 32 
+
+  
+
+  
+
+1 d) Create and customize a basic bar chart  
+
+1. Drag a Dimension Category to Columns.  
+
+2. Drag a Measure Profit to Rows.  
+
+3. Tableau creates a Bar Chart.  
+
+4. Change colors, labels using the Marks card.  
+
+  
+
+  
+
+  DATA VISUALIZATION    
+
+
+
+Yash Mhatre   Roll No: 32 
+
+1 e) Build a line chart for time-series analysis  
+
+1. Drag a Category field to Columns.  
+
+2. Drag a Measure Profit to Rows.  
+
+3. From Marks, choose   
+
+  
+
+  
+
+1 f) Create a geographic map visualization  
+
+1. Double-click a geographic field State, City.  
+
+2. Go to show me & select the filled map.  
+
+3. Tableau automatically creates a Map.  
+
+  
+
+  DATA VISUALIZATION    
+
+
+
+Yash Mhatre   Roll No: 32 
+
+1 g) Combine multiple charts into a simple interactive dashboard  
+
+1. Click New Dashboard.  
+
+2. Drag the created charts onto the dashboard.  
+
+3. Arrange the charts.  
+
+4. Save the dashboard.   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  DATA VISUALIZATION    
+
+
+
+PRACTICAL 2 
+
+ 
+
+Aim :-  Working with Data Sources and Data Preparation in Tableau 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+                                                                                          Name: Yash J Mhatre 
+
+                                                                                          Class: T.Y Bsc. DS 
+
+                                                                                          Sub: Data Visualization      
+
+                                                                                          Roll no.: 31                                                                                                                       
+
+                                                                                          Sign :  
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+  
+
+                  Yash Mhatre.                                                                                                                              Roll No 31 
+
+                  Aim : -Working with Data Sources and Data Preparation in Tableau  
+
+a) Connect to different data sources (Excel, CSV, Database)   
+1. Open Tableau Public.   
+2. Click Connect to Data.   
+3. Select Microsoft Excel and open an Excel file.   
+4. Verify that the data appears in the Data Source tab.   
+
+5. Repeat the process using a CSV file   
+
+  
+
+b) Create and use data extracts vs live connections   1. Tableau Public 
+automatically creates an extract of the data.   
+
+c) Manage metadata (rename, hide, change data types)    
+1. Open a worksheet.    
+2. In the Data pane, right-click a field.    
+3. Select Rename and enter a new name.    
+4. To hide a field:    
+
+ Right-click the field.    
+
+Select Hide.   
+
+5. To change the data type:    
+
+ Click the data type icon beside the field name.    
+
+Choose String, Number, Date, etc.  
+
+  
+
+DATA VISUALIZATION 
+
+
+
+ 
+
+  
+
+                  Yash Mhatre.                                                                                                                              Roll No 31 
+
+ 
+
+  
+
+d) Perform joins (inner, left, right) on multiple tables  
+
+e) Apply data blending between two sources 1. Open an Excel file containing 
+
+multiple sheets.  
+
+2. Drag the first sheet to the canvas.  
+
+3. Drag the second sheet next to it.  
+
+4. Tableau automatically creates a relationship.  
+
+5. Click the join icon if available.  
+
+6. Select:  
+
+• Inner Join  
+
+• Left Join  
+
+7. Choose matching fields.  
+
+  
+
+  
+
+  
+
+  
+
+DATA VISUALIZATION 
+
+
+
+ 
+
+  
+
+                  Yash Mhatre.                                                                                                                              Roll No 31 
+
+ 
+  
+
+ 
+
+  
+
+f) Implement different types of filters (dimension, measure, date)  
+
+g) Optimize performance using extracts and filtering  
+
+1. Drag Category to Filters.  
+
+2. Select required categories.  
+
+3. Click OK.  
+
+4. Drag Sales to Filters.  
+
+5. Choose Sum or Average.  
+
+6. Set a range.  
+
+7. Click OK.  
+
+  
+
+  
+
+  
+
+  
+
+DATA VISUALIZATION 
+
+
+
+ 
+
+  
+
+                  Yash Mhatre.                                                                                                                              Roll No 31 
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+DATA VISUALIZATION 
+
+
+
+Yash Mhatre    Roll No:32 
+
+Aim: Creating Advanced Visualizations in Tableau.  
+
+3a.) Create stacked and grouped bar charts for comparison.  
+
+Stacked bar chart  
+
+Steps:  
+
+1. Open Tableau and connect to the Sample Superstore dataset.   
+
+2. Open a new worksheet.   
+
+3. Drag Category to the Columns shelf.   
+
+4. Drag Profit to the Rows shelf.   
+
+5. Drag Sub-Category to the Color option in the Marks card to create a Stacked Bar 
+Chart.   
+
+6. Rename the sheet as Stacked Bar Chart.  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  DATA VISUALIZATION   
+
+
+
+Yash Mhatre    Roll No:32 
+
+Grouped Bar Chart Steps:  
+
+1. Open another new worksheet.   
+2. Drag Category and then Sub-Category to the Columns shelf.   
+3. Drag Profit to the Rows shelf to create a Grouped Bar Chart.   
+4. Rename the sheet as Grouped Bar Chart.  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+3b.) Build tree maps and pie charts for part-to-whole analysis  
+
+To create a Tree Map in Tableau.  
+
+  DATA VISUALIZATION   
+
+
+
+Yash Mhatre    Roll No:32 
+
+Steps:  
+
+1. Open Tableau and connect to the Sample Superstore dataset.   
+
+2. Open a new worksheet.   
+
+3. Drag Category to the Marks card and drop it on Label.   
+
+4. Drag Profit to the Size option on the Marks card.   
+
+5. Drag Profit again to the Color option on the Marks card.   
+
+6. Click Show Me and select the Tree Map chart.   
+
+7. The Tree Map will be displayed showing the categories with different sizes and colors 
+based on profit.   
+
+8. Rename the worksheet as Tree Map.  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  DATA VISUALIZATION   
+
+
+
+Shreya Dhumal    Roll No: 12  
+
+dataset.   
+To create a Pie Chart in Tableau.  
+
+Steps:  
+
+1. Open Tableau and connect to the Sample Superstore  
+
+2. Open a new worksheet.   
+
+3. Click Show Me and select the Pie Chart.   
+
+4. Drag Category to the Color option on the Marks card.   
+
+5. Drag Profit to the Angle option on the Marks card.   
+
+6. Drag Profit to the Label option to display the profit values.   
+
+7. Adjust the pie chart size using the Size option if required.   
+
+8. Rename the worksheet as Pie Chart.  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  Data Visualization    
+
+
+
+Shreya Dhumal    Roll No: 12  
+
+3c.) 
+
+Steps: 
+
+dataset.   
+  
+
+  
+
+   
+
+ Design scatter plots to identify relationships.  
+
+  
+
+1. Open Tableau and connect to the Sample Superstore  
+
+2. Open a new worksheet.   
+
+3. Drag Sales to the Columns shelf.   
+
+4. Drag Profit to the Rows shelf.   
+
+5. Click Show Me and select the Scatter Plot chart.   
+
+6. Set the Marks type to Circle if it is not selected automatically.   
+
+7. Rename the worksheet as Scatter Plot.  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  Data Visualization    
+
+
+
+Shreya Dhumal    Roll No: 12  
+
+3d.) 
+
+Steps: 
+
+dataset.   
+  
+
+  
+
+  
+
+  
+
+  
+
+   
+ Develop histograms for distribution analysis.  
+
+  
+
+1. Open Tableau and connect to the Sample Superstore  
+
+2. Open a new worksheet.   
+
+3. Click Show Me and select the Histogram chart.   
+
+4. Drag Profit to the worksheet if it is not added automatically.   
+
+5. Tableau will create Profit (bin) on the Columns shelf and CNT(Profit) on the Rows 
+shelf.   
+
+6. Adjust the bin size if required by right-clicking Profit (bin) and selecting Edit.   
+
+7. Rename the worksheet as Histogram.  
+
+  
+
+  
+
+  Data Visualization    
+
+
+
+Shreya Dhumal    Roll No: 12  
+
+3e.) 
+
+Steps: 
+
+dataset.   
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+ Build box-and-whisker plots  
+
+  
+
+1. Open Tableau and connect to the Sample Superstore  
+
+2. Open a new worksheet.   
+
+3. Drag Profit to the Rows shelf.   
+
+4. Drag Category to the Marks card.   
+
+5. Click Show Me and select the Box Plot chart.   
+
+6. Tableau will create the Box Plot automatically.   
+
+7. Rename the worksheet as Box Plot.  
+
+  
+
+  Data Visualization    
+
+
+
+Shreya Dhumal    Roll No: 12  
+
+3f.) 
+
+Steps: 
+
+dataset.   
+
+  
+
+  Data Visualization    
+
+
+
+  
+
+Practical no.4  
+
+Aim:   
+Performing Data Analysis using Calculations in Tableau a) Create 
+basic calculated fields using formulas  
+
+b) Perform row-level calculations  
+
+c) Perform aggregate-level calculations  
+
+d) Implement FIXED Level of Detail (LOD) calculations  
+
+e) Use INCLUDE and EXCLUDE LOD expressions  
+
+f) Create and use parameters for dynamic analysis  
+g) Apply calculations to fix data issues and enhance insights  
+
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+  
+Name : Yash J Mhatre 
+Class : TYDS 
+Roll No : 32 
+Sub : Data Visualization  
+Sign:  
+
+  
+  
+  
+  
+  
+  
+
+ 
+
+
+
+Yash Mhatre  Roll No : 32 
+
+Source Code:  
+  
+a) Create basic calculated fields using formulas:  
+
+1. Open the dataset in Tableau.  
+2. Go to Analysis → Create Calculated Field.  
+3. Name the field Net Profit.  
+4. Enter the formula:  
+
+[Sales] - [Cost]  
+5. Click OK.  
+
+  
+Output:  
+ 
+
+ 
+b) Perform row-level calculations:  
+
+1. Create a new calculated field.  
+2. Name it Profit Per Row.  
+3. Enter the formula:  
+
+[Sales] - [Cost] 4. Drag 
+the field to the view.  
+
+  
+Output:  
+ 
+
+  DATA VISUALIZATION  
+
+
+
+Yash Mhatre  Roll No : 32 
+
+ 
+
+  
+c) Perform aggregate-level calculations  
+
+1. Create a calculated field.  
+2. Name it Total Sales.  
+3. Enter the formula: SUM([Sales])  
+4. Click OK and use it in a visualization.  
+
+Output:  
+ 
+
+  DATA VISUALIZATION  
+
+
+
+Yash Mhatre  Roll No : 32 
+
+  
+
+  
+d) Implement FIXED Level of Detail (LOD) calculations  
+
+1. Create a calculated field.  
+2. Name it Sales by Region (FIXED).  
+3. Enter the formula:  
+
+  DATA VISUALIZATION  
+
+
+
+Yash Mhatre  Roll No : 32 
+
+{ FIXED [Region] : SUM([Sales]) }  
+4. Click OK and use it in a chart.  
+
+  
+Output:  
+ 
+
+  
+
+  DATA VISUALIZATION  
+
+
+
+Yash Mhatre  Roll No : 32 
+
+e) Use INCLUDE and EXCLUDE LOD expressions:  
+
+INCLUDE LOD:  
+
+1. Create a calculated field.  
+2. Name it Sales with Sub-Category (INCLUDE).  
+3. Enter:  
+
+{ INCLUDE [Sub-Category] : SUM([Sales]) }  
+
+Output:  
+  
+
+ 
+ 
+
+  DATA VISUALIZATION  
+
+
+
+Yash Mhatre  Roll No : 32 
+
+  
+  
+EXCLUDE LOD  
+
+1. Create another calculated field.  
+2. Name it Sales without Category (EXCLUDE).  
+3. Enter:  
+
+{ EXCLUDE [Category] : SUM([Sales]) }  
+4. Add both fields to the visualization.  
+
+Output:  
+  
+
+  DATA VISUALIZATION  
+
+
+
+Yash Mhatre  Roll No : 32 
+
+ 
+
+  
+
+ 
+f) Create and use parameters for dynamic analysis 1. Right-click in the Data 
+
+pane → Create Parameter.  
+2. Name it Measure Selector.  
+
+  DATA VISUALIZATION  
+
+
+
+Yash Mhatre  Roll No : 32 
+
+3. Add values such as Sales and Profit.  
+4. Click OK.  
+5. Right-click the parameter and select Show Parameter.  
+6. Use it to switch between Sales and Profit in the analysis.  
+
+  
+Output:  
+ 
+
+ 
+ 
+
+  DATA VISUALIZATION  
+
+
+
+Yash Mhatre  Roll No : 32 
+
+  
+
+  
+g) Apply calculations to fix data issues and enhance insights  
+
+1. Create a calculated field.  
+2. Name it Clean Sales.  
+3. Enter the formula:  
+
+IFNULL([Sales], 0)  
+4. Use the new field in your charts to replace missing values.  
+
+  
+Output:  
+ 
+
+  DATA VISUALIZATION  
+
+
+
+Yash Mhatre  Roll No : 32 
+
+ 
+ 
+
+  
+
+  DATA VISUALIZATION  
+
+
+
+Practical No: 05 
+ 
+
+Analyzing Data using Table Calculations in Tableau  
+ 
+ 
+
+Aim: a) Apply quick table calculations (running total, percent of total)  
+          b) Create moving averages and cumulative metrics  
+          c) Perform year-over-year growth analysis  
+          d) Use ranking functions (Top N, Bottom N)  
+          e) Implement window functions (WINDOW_SUM, WINDOW_AVG)  
+          f) Customize addressing and partitioning  
+          g) Create dynamic titles and labels using table calculations  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+    Name: Shruti Pote 
+    Class: TY BSc DS 
+    Roll no: 47 
+    Subject: Data Visualization 
+    Sign: 
+
+
+
+Shruti Pote                                                                                                                                                    Roll no: 47 
+
+ 
+ 
+a) Apply quick table calculations (running total, percent of total)  
+
+1. Open Global Superstore.xlsx in Tableau. 
+2. Connect to the Orders sheet. 
+3. Drag Order Date to Columns and change it to Year. 
+4. Drag Sales to Rows. 
+5. Click the drop-down arrow on SUM(Sales). 
+
+6. Select Quick Table Calculation → Running Total. 
+7. Click the drop-down arrow on SUM(Sales). 
+
+8. Select Quick Table Calculation → Percent of Total. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Data Visualization 
+
+
+
+Shruti Pote                                                                                                                                                    Roll no: 47 
+
+ 
+ 
+ 
+ 
+b) Create moving averages and cumulative metrics  
+
+1. Drag Order Date to Columns and select Month. 
+2. Drag Sales to Rows. 
+3. Click the drop-down on SUM(Sales). 
+
+4. Select Quick Table Calculation → Moving Average. 
+
+ 
+c) Perform year-over-year growth analysis  
+
+1. Drag Order Date (Year) to Columns. 
+2. Drag Sales to Rows. 
+3. Click SUM(Sales). 
+
+4. Select Quick Table Calculation → Percent Difference. 
+5. Right-click the field and select Edit Table Calculation. 
+6. Set Relative To = Previous. 
+
+Data Visualization 
+
+
+
+Shruti Pote                                                                                                                                                    Roll no: 47 
+
+ 
+d) Use ranking functions (Top N, Bottom N)  
+
+1. Drag Sub-Category to Rows. 
+2. Drag Sales to Columns. 
+3. Sort the chart in descending order. 
+4. Click the drop-down on SUM(Sales). 
+
+5. Select Quick Table Calculation → Rank. 
+
+ 
+e) Implement window functions (WINDOW_SUM, WINDOW_AVG)  
+
+1. Create a calculated field: 
+ WINDOW_SUM(SUM([Sales])) 
+
+2. Create another calculated field: 
+ WINDOW_AVG(SUM([Sales])) 
+
+3. Drag both fields to the view. 
+
+Data Visualization 
+
+
+
+Shruti Pote                                                                                                                                                    Roll no: 47 
+
+ 
+f) Customize addressing and partitioning  
+
+1. Create a Running Total chart. 
+
+2. Right-click Running Total → Edit Table Calculation. 
+3. Select Table Across or Table Down. 
+
+ 
+g) Create dynamic titles and labels using table calculations  
+
+1. Create a Sales chart. 
+2. Edit the worksheet title and insert Year. 
+3. Drag Sales to Label. 
+
+Data Visualization 
+
+
+
+Shruti Pote                                                                                                                                                    Roll no: 47 
+
+ 
+
+Data Visualization 
+
+
+
+Practical  No : 6  
+ 
+  
+
+Aim: Designing Effective and Visually Appealing Dashboards  
+a) Apply worksheet-level and workbook-level formatting   
+b) Customize number, date, and null value formatting  
+c) Design effective color schemes and layouts   
+d) Create informative tooltips   
+
+e) Implement “Viz in Tooltip”   
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+
+Name : Yash J Mhatre 
+Class: TYBSc.DS 
+Roll No : 32 
+Sub: Data Visualization 
+Sign :  
+
+  
+  
+
+
+
+Yash Mhatre                                                                                                                                                 Roll no: 32  
+
+ Steps:  
+a) Apply Worksheet-Level and Workbook-Level Formatting  
+
+1. Open Tableau and load the dataset.  
+2. Create the bar chart.  
+3. Change the worksheet title and font.  
+4. Format rows, columns, borders, and shading.  
+5. Go to Format → Workbook and apply a theme.  
+
+  
+
+b) Customize Number, Date Formatting  
+
+1. Right-click Sales → Default Properties → Number Format → Currency.  
+
+2. Right-click Order Date → Default Properties → Date Format.  
+3. Select a suitable date format.  
+
+  
+  
+
+DATA VISUALIZATION  
+
+
+
+Yash Mhatre                                                                                                                                                 Roll no: 32  
+
+c) Design Effective Color Schemes and Layouts  
+
+1. Create a Dashboard.  
+2. Arrange charts using Horizontal or Vertical containers.  
+3. Keep proper spacing and alignment.  
+
+  
+
+d) Create Informative Tooltips  
+
+1. Select a worksheet.  
+2. Click Tooltip on the Marks card.  
+3. Add fields such as Sales, Profit, Category.  
+4. Format the tooltip text.  
+5. Click OK.  
+
+   
+
+DATA VISUALIZATION  
+
+
+
+Yash Mhatre                                                                                                                                                 Roll no: 32  
+
+e) Implement "Viz in Tooltip"  
+
+1. Create a small worksheet (e.g., Monthly Sales).  
+2. Open the main worksheet.  
+3. Click Tooltip.  
+4. Select Insert → Sheets.  
+5. Choose the small worksheet.  
+6. Click OK and test by hovering over marks.  
+
+  
+
+  
+
+DATA VISUALIZATION  
+
+
+
+Practical No. 7 
+
+ 
+
+Aim: Creating Interactive Dashboards and Data Stories 
+
+a) Design a basic dashboard layout using sheets 
+
+b) Add filters and interactive controls 
+
+c) Implement highlight and filter actions 
+
+d) Use URL and set actions for interactivity 
+
+e) Create dynamic dashboards using parameters 
+
+f) Design dashboards for multiple devices 
+
+1) Build a complete data story using Story feature 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Name : Yash J Mhatre 
+
+Class : TY.DS 
+
+Roll No: 32 
+
+Sub: Data Visualization 
+
+Sign :  
+
+
+
+Yash Mhatre                                                                                                                                   Roll No: 32 
+
+ 
+Steps: 
+
+1. Connect Dataset lung_cancer.csv in tableau.  
+2. Create Worksheets: 
+
+I. Lung Cancer Cases by Gender  
+II. Smoking vs Lung Cancer  
+III. Age Distribution  
+IV. Symptoms Analysis  
+
+3. Click New Dashboard & Drag all four worksheets onto the dashboard. 
+4. Drag Gender to Filters -> Select All -> Right-click Gender → Show Filter.  
+5. Drag Lung Cancer to Filters -> Select All -> Right-click Lung Cancer→ Show 
+Filter.  
+6. Drag Smoking to Filters -> Select All -> Right-click Smoking → Show Filter.  
+7. Filter ▼ → Apply to Worksheets → All Using This Data Source  
+8. Dashboard → Actions → Add Action → Filter  
+
+Source Sheet -> Smoking vs Lung Cancer  
+Target Sheets -> Gender Cases, Age Distribution, Symptoms Analysis 
+Select -> Show All Values -> OK  
+
+9. Dashboard → Actions → Add Action → Highlight  
+Source Sheet -> Gender Cases  
+Target Sheets -> All Sheets  
+Run Action  -> Hover  -> OK  
+
+10. Dashboard → Actions → Go to URL  
+Enter URL: https://en.wikipedia.org/wiki/Lung_cancer 
+Run Action  
+
+11. Click New Story. 
+12. Set the story size to Automatic. 
+13. Add the dashboard as the first Story Point and title it Dashboard Overview. 
+14. Create a second Story Point showing Smoking = YES using the filter. 
+15. Add a caption explaining the smoking analysis(“Most lung cancer cases are observed 
+among smokers.” ). 
+16. Create a third Story Point highlighting the Age Distribution chart. 
+17. Add a caption describing the age-wise distribution of cases(“Lung cancer cases are 
+more frequent in older age groups. ”). 
+18. Create a fourth Story Point displaying the Symptoms Analysis chart. 
+19. Add a caption discussing the relationship between symptoms and lung cancer(“These 
+symptoms are commonly associated with lung cancer cases. ”). 
+20. Add a final Story Point showing the complete dashboard with a conclusion 
+summarizing the key findings(“Smoking and certain symptoms show strong associations with 
+lung cancer”). 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+DATA VISUALIZATION 
+
+
+
+Yash Mhatre                                                                                                                                   Roll No: 32 
+
+ 
+
+1) 
+
+ 
+
+2) 
+
+ 
+
+3) 
+
+ 
+
+ 
+
+ 
+
+DATA VISUALIZATION 
+
+
+
+Yash Mhatre                                                                                                                                   Roll No: 32 
+
+4) 
+
+ 
+
+5) 
+
+ 
+
+6) 
+
+ 
+
+DATA VISUALIZATION 
+
+
+
+Yash Mhatre                                                                                                                                   Roll No: 32 
+
+7) 
+
+ 
+
+ 
+
+8) 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+DATA VISUALIZATION 
+
+
+
+Yash Mhatre                                                                                                                                   Roll No: 32 
+
+9) 
+
+ 
+
+ 
+
+10) 
+
+ 
+
+DATA VISUALIZATION 
+
+
+
+Practical No. 08 
+ 
+
+Aim: Performing Advanced Analytics using Trends, Clustering, and 
+Forecasting 
+ 
+a) Add and interpret trend lines (linear, exponential) 
+b) Customize and analyze trend models 
+c) Perform clustering on datasets 
+d) Analyze distributions using built-in tools 
+e) Apply forecasting techniques 
+f) Compare different statistical models 
+g) Export and interpret statistical results 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Name:- Yash J  Mhatre 
+
+Class:-TY.Bsc.Ds 
+
+Roll No:-28 
+
+Sub:- Data Visualization 
+
+Sign:- 
+
+
+
+Yash Mhatre                                                                                                            Roll No:-28 
+
+A) Add and Interpret Trend Lines (Linear & Exponential) 
+1.Open Tableau. 
+2.Connect to the Sample Superstore dataset. 
+3.Drag Order Date to Columns & Drag Sales to Rows. 
+4.Click the Analytics tab. 
+5.Drag Trend Line onto the chart. 
+6.Right-click the trend line → Edit Trend Lines. 
+7.Choose Linear or Exponential. 
+ 
+Output:- 
+
+ 
+
+b) Customize and Analyze Trend Models 
+1.Right-click the trend line. 
+2.Select Edit Trend Lines. 
+3.Change the model (Linear, Logarithmic, Polynomial, Exponential). 
+4.Compare different models. 
+5.Right-click the trend line → Describe Trend Model. 
+ 
+Output:- 
+
+ 
+
+Data Visualization 
+
+
+
+Yash Mhatre                                                                                                            Roll No:-28 
+
+c) Perform Clustering on Datasets 
+1.Create a scatter plot: 
+Sales → Columns 
+Profit → Rows 
+2.Go to the Analytics pane. 
+3.Drag Cluster onto the chart. 
+4.Tableau automatically creates clusters. 
+ 
+Output:- 
+
+ 
+
+d) Analyze Distributions using Built-in Tools 
+1.Create a graph using Sales. 
+2.Open the Analytics pane. 
+3.Drag Distribution onto the chart. 
+4.View how values are spread 
+ 
+Output:- 
+
+ 
+
+Data Visualization 
+
+
+
+Yash Mhatre                                                                                                            Roll No:-28 
+
+e) Apply Forecasting Techniques 
+1.Place Order Date on Columns & Place Sales on Rows. 
+2.Go to the Analytics pane. 
+3.Drag Forecast onto the chart. 
+4.Tableau predicts future sales automatically. 
+ 
+Output:- 
+
+ 
+f) Compare Different Statistical Models 
+1.Add different trend models (Linear and Exponential). 
+2.Open Describe Trend Model for each. 
+ 
+Output:- 
+
+ 
+
+Data Visualization 
+
+
+
+Practical No. 09 
+ 
+Aim: Cleaning and Structuring Data for Analysis 
+a) Identify and handle missing or inconsistent data 
+b) Convert wide data into tall format 
+c) Perform union of multiple files 
+d) Restructure data for better visualization 
+e) Handle different levels of detail in datasets 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ NAME: AYUSH PATIL 
+
+CLASS: TY.DS 
+ 
+
+ROLL NO: 35 
+ SUBJECT: DATA VISUALIZATION 
+
+ SIGNATURE: 
+
+
+
+Ayush Patil                                                                                                                              Roll No. 35 
+
+Steps: 
+a) Identify and Handle Missing or Inconsistent Data 
+1.Open Tableau & Connect to the Sample Superstore dataset. 
+2.Go to the Data Source tab. 
+3.Check for Null values or blank cells. 
+4.Click the Null value and choose Filter Data or Replace Null (if available). 
+5.Rename incorrect field names by double-clicking them. 
+ 
+
+ 
+ 
+ 
+b) Convert Wide Data into Tall Format 
+1.Open the Data Source page. 
+2.Select multiple columns (Ctrl + Click). 
+3.Right-click and choose Pivot. 
+4.Tableau creates Pivot Field Names and Pivot Field Values. 
+
+ 
+ 
+
+Data Visualization 
+
+
+
+Ayush Patil                                                                                                                              Roll No. 35 
+
+ 
+c) Perform Union of Multiple Files 
+1.Connect to a folder containing multiple Excel/CSV files. 
+2.Drag the first table to the canvas. 
+3.Click New Union. 
+4.Select the remaining files.Click OK. 
+ 
+
+ 
+ 
+ 
+d) Restructure Data for Better Visualization 
+1.Rename fields if required. 
+2.Hide unnecessary columns (Right-click → Hide). 
+3.Change data types (Text, Number, Date) if needed.  
+ 
+
+ 
+ 
+
+Data Visualization 
+
+
+
+Ayush Patil                                                                                                                              Roll No. 35 
+
+ 
+e) Handle Different Levels of Detail in Datasets 
+1.Create a worksheet. 
+2.Drag Region to Rows. 
+3.Drag Sales to Columns. 
+4.Add State or City for more detail.
+
+ 
+ 
+ 
+
+Data Visualization 
+
+
+
+Practical No : 11  
+ 
+
+Aim:  Implementing Advanced Visualization Techniques and  
+Customizations  
+  
+a) Create slope charts and lollipop charts  
+b) Design waterfall charts  
+c) Build sparklines for trend analysis  
+d) Create custom geographic territories  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+                                                                                      
+
+  
+
+ 
+
+  
+
+                                                                                  Name:Yash J Mhatre 
+
+                                                      Roll No:28  
+
+                                                                  Class : TYBSc.DS  
+
+                                                                                  Subject: Data Visualization                                                          
+
+                 Sign :  
+ 
+ 
+ 
+ 
+
+ 
+
+
+
+Yash Mhatre            Roll No: 28 
+                                                                                                                           
+
+a) Create Slope Chart and Lollipop Chart 
+
+ Steps:  
+1.Open Tableau Public → Connect to Sample Superstore.Create a new 
+worksheet. 2.Drag Category → Rows.Drag Sales → Columns.Drag 
+Order Date → Columns.  
+3.Use Line as the Marks type.  
+4.Create a new worksheet.  
+5.Drag Category → Rows.Drag Sales → Columns. Change 
+Marks type to Circle.  
+6.Create a Dual Axis with another Sales measure.  
+7.Change one Marks card to Bar. Make the bar very thin.  
+  
+
+    
+  
+
+DATA VISULIZATION  
+
+
+
+Yash Mhatre            Roll No: 28 
+                                                                                                                           
+
+  
+b) Design a Waterfall Chart 1.Create a new worksheet.Drag 
+
+Category → Columns.Drag Sales → Rows.  
+2.Change Marks type to Gantt Bar.  
+  
+
+  
+c) Build Sparklines for Trend Analysis  
+
+1.Create a new worksheet.  
+2.Drag Category → Rows.Drag Order Date → Columns.Change Order Date to 
+Month.  
+3.Drag Sales → Rows.Change Marks type to Line.  
+
+DATA VISULIZATION  
+
+
+
+Yash Mhatre            Roll No: 28 
+
+  
+  
+
+                                                                                                                           
+
+d) Create Custom Geographic Territories 1.Find State in 
+the Data pane.  
+
+2.Right-click State.Select Create → Group.  
+Select states that belong to a particular territory.  
+Click Group.  
+3.Rename the groups.  
+4.Drag the newly created State Group to Color.Drag State to the map.Format the 
+map.  
+  
+
+DATA VISULIZATION  
+
+
+
+Yash Mhatre            Roll No: 28 
+
+  
+
+DATA VISULIZATION  
+
+
+
+Practical No.13 
+ 
+Aim: Retail Sales & Profitability Dashboard 
+ 
+Objective: Analyze sales, profit, and discount impact across regions. 
+ 
+Key Tasks: 
+Build bar, line, and map visualizations 
+Use calculated fields (Profit Ratio) 
+Apply filters (Region, Category) 
+Create interactive dashboard 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Name: Digwesh Mande 
+Roll No. 25 
+Class: TY BSc.DS 
+Subject: Data Visualizatipon 
+Sign: 
+
+ 
+ 
+ 
+
+
+
+Digwesh Mande                                                                                              Roll no:-25 
+
+Steps: 
+ 
+A.Build Bar Chart – Sales by Region 
+
+1.Drag Region → Columns and Sales → Rows. 
+Select Bar Chart from Show Me. 
+
+2.Drag Category → Color. 
+
+ 
+B.Build Line Chart – Sales Trend 
+
+1.Drag Order Date → Columns and Sales → Rows. 
+Change Order Date to Month. 
+2.Select Line Chart. 
+
+ 
+
+Data Visualization 
+
+
+
+Digwesh Mande                                                                                              Roll no:-25 
+
+C.Build Map – Regional Profit 
+1.Double-click State to create a map. 
+
+2.Drag Profit → Color. 
+3.Drag Sales → Size. 
+
+ 
+D.Create Profit Ratio 
+1.Right-click in Data Pane → Create Calculated Field. 
+2.Name it Profit Ratio and enter: 
+SUM([Profit]) / SUM([Sales]) 
+3.Drag Profit Ratio to Label or Color 
+
+ 
+ 
+
+Data Visualization 
+
+
+
+Digwesh Mande                                                                                              Roll no:-25 
+
+E.Apply Filters 
+1.Drag Region and Category to the Filters shelf. 
+
+2.Right-click each field → Show Filter. 
+3.Select the required Region/Category. 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Data Visualization 
+
+
+
+Digwesh Mande                                                                                              Roll no:-25 
+
+F.Create Interactive Dashboard 
+1.Click New Dashboard and drag the Bar, Line and Map sheets onto it. 
+2.Add Region and Category filters. 
+3.Select Use as Filter on a chart to make the dashboard interactive. 
+
+ 
+
+Data Visualization 
+
+
+
+Practical No: 14 
+
+Customer Segmentation & Behavior Analysis 
+
+ 
+
+Aim: 
+Objective: Identify customer segments based on purchasing patterns. 
+Key Tasks: 
+Use clustering 
+Analyze frequency, recency, and monetary value 
+Create scatter plots and segmentation dashboards 
+Highlight high-value customers 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Name: Yash J Mhatre 
+
+Class: T.Y Bsc. DS 
+
+Sub: Data Visualization 
+
+Roll no: 28 
+
+Sign : 
+
+
+
+Yash Mhatre                 Roll No: 28 
+
+ 
+
+Steps: 
+1.Open Tableau Public. 
+2.Click Connect → Sample - Superstore. 
+3.Create a scatter plot: 
+      Columns → Count Distinct Order ID 
+      Rows → SUM(Sales) 
+      Customer Name → Detail 
+4.Go to: 
+     Analytics → Cluster 
+     Drag Cluster onto the scatter plot. 
+5.Drag Customer Name → Rows. 
+   Drag Sales → Columns. 
+   Sort the chart Descending. 
+   Drag Segment → Color. 
+6 Drag Customer Name → Rows. 
+   Drag Order ID → Columns. 
+   Right-click Order ID. 
+   Select Measure → Count (Distinct). 
+   Rename the sheet Customer Frequency. 
+7.Dashboard → New Dashboard 
+   Drag all three sheets into the dashboard. 
+ 
+
+ 
+
+1.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+DATA VISUALIZATION 
+
+
+
+Yash Mhatre                 Roll No: 28 
+
+2.
+
+ 
+
+ 
+
+3.
+
+ 
+
+DATA VISUALIZATION 
+
+
+
+Yash Mhatre                 Roll No: 28 
+
+4.
+
+ 
+
+ 
+
+ 
+
+ 
+
+DATA VISUALIZATION 
+
+
+
+Practical No: 15  
+
+Aim:  
+
+Sales Forecasting and Trend Analysis.  
+Objective: Predict future sales using historical data.  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+ 
+
+ 
+
+  
+
+Name: Yash J Mhatre 
+Class: T.Y Bsc. DS 
+Sub: Data Visualization 
+Roll no: 28 
+Sign : 
+
+ 
+
+
+
+Yash Mhatre  Roll No: 28  
+
+ 
+15. Aim: Sales Forecasting and Trend Analysis.  
+Objective: Predict future sales using historical data.  
+
+Steps:  
+1.Open a new worksheet.  
+2.Drag:Order Date → Columns  
+3.select: Month. Drag: Sales → Rows  
+4.Select: Marks → Line  
+
+  
+
+  Data Visualization  
+
+
+
+Yash Mhatre  Roll No: 28  
+
+  
+  
+
+1. Keep Order Date → Columns.  
+2. Keep Sales → Rows.  
+3. Open the Analytics pane.  
+4. Drag Forecast onto the chart.  
+
+  
+  
+
+ 
+
+  Data Visualization  
+
+
+
+Yash Mhatre  Roll No: 28  
+
+  
+
+  
+  
+  
+1. Right-click SUM(Sales).  
+2. Select: Quick Table Calculation  
+
+3. Select: Moving Average  
+
+  Data Visualization  
+
+
+
+Yash Mhatre  Roll No: 28  
+
+  
+  
+
+  
+
+  Data Visualization
